@@ -1,4 +1,4 @@
-# frogger
+# Frogger
 3D version of the game frogger
 
 ### Instructions to run:
