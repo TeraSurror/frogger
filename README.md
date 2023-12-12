@@ -1,5 +1,5 @@
 # Frogger
-3D version of the game frogger
+3D version of the game frogger - implemented in WebGL
 
 ### Instructions to run:
 1. Clone the code.
