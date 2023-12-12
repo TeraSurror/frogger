@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frogger</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
+        integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ=="
+        crossorigin="anonymous" defer></script>
+
+    <script src="index.js" type="module" defer></script>
+
+    <link href="index.css" rel="stylesheet">
+    </link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="header">
+        <h1>Frogger</h1>
+        <div id="score">
+            <div id="score-board">
+                <p>Score: <span id="curr-score">0</span></p>
+                <p style="margin-left:1em">High Score: <span id="high-score">0</span></p>
+            </div>
+            <p style="margin-top:1em;font-size: 1.1rem;">Lives: <span id="lives">5</span></p>
+        </div>
+    </section>
+    <section id="game-container">
+        <canvas id="myImageCanvas" width="600" height="600"></canvas>
+        <canvas id="canvas" width="600" height="600"></canvas>
+    </section>
+
+</body>
+
+</html>
